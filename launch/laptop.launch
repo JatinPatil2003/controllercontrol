@@ -1,0 +1,4 @@
+<launch>
+    <node name="controller_node" pkg="controllercontrol" type="cmdvel_publisher.py" output="screen">
+    </node>
+</launch>

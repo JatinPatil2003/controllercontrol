@@ -1,0 +1,6 @@
+<launch>
+    <node name="left_cmdvel_node" pkg="controllercontrol" type="left_cmdvel.py" output="screen">
+    </node>
+    <node name="right_cmdvel_node" pkg="controllercontrol" type="right_cmdvel.py" output="screen">
+    </node>
+</launch>
